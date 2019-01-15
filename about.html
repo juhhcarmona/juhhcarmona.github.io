@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="favicon.ico">
+    <title>Entre Tais Coisas...</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/jquery.bxslider.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+  </head>
+  <body>
+		<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top"></nav> <!-- navbar.html -->
+
+    <div class="container">
+      <header></header> <!-- header.html -->
+
+  		<section>
+  			<div class="row">
+  				<div class="col-md-12">
+  					<article class="blog-post">
+  						<div class="blog-post-body">
+  							<h2><a href="post.html">Sobre o Blog</a></h2>
+
+                <div class="blog-post-image col-md-4" style="text-align: center">
+                  <img src="images/us.jpg" alt="">
+                  <div class="image-meta">
+                    <span>This is us!</span>
+                  </div>
+                </div>
+
+  							<div class="blog-post-text col-md-8">
+  								<p>
+                    Olá! Seja bem vindo(a) ao nosso mundo!<br/>
+                    Somos uma dupla de moças curiosas que se conhecem há muito tempo e que compartilham muitos sonhos, um deles é ter um cantinho nosso para escrever sobre coisas das quais gostamos. Nos juntamos com esse intuito, e assim nasceu o <i>Entre tais coisas.. </i>. Somos netas de uma vó que teve 14 filhos, crescemos imersas em um ambiente de muita bagunça, diferenças e principalmente amor, e como boas mineiras que somos, temos muitos causos pra contar! Aqui estamos de braços e coração abertos pra quem quiser se achegar conosco e acompanhar!
+                  </p>
+  							</div>
+  						</div>
+  					</article>
+  				</div>
+  			</div>
+  		</section>
+		</div><!-- /.container -->
+
+		<footer class="footer"></footer> <!-- footer.html -->
+
+		<!-- Bootstrap core JavaScript
+			================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.bxslider.js"></script>
+		<script src="js/mooz.scripts.min.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132179945-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-132179945-1');
+    </script>
+
+
+    <script type="text/javascript">
+      $(".navbar").load("layout/navbar.html");
+      $("header").load("layout/header.html");
+      $("#posts").load("layout/summary.html");
+      $(".footer").load("layout/footer.html");
+      $(".sidebar-gutter").load("layout/sidebar.html");
+    </script>
+	</body>
+</html>
